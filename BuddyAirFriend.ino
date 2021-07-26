@@ -7,9 +7,9 @@
 #define DHTPIN 2 
 #define DHTTYPE DHT11 
 
-String ssid = "5143609_2.4G"; // укажите название вашей точки-доступа     
-String pass = "0509555356"; // укажите пароль от вашей точки-доступа
-String token = "1101600806:AAHUGsioRyFRkdncyuuORsKUTjK9IHc6MxE"; // укажите ваш API ключ 
+String ssid = ""; // укажите название вашей точки-доступа     
+String pass = ""; // укажите пароль от вашей точки-доступа
+String token = ""; // укажите ваш API ключ 
 
 CTBot myBot; // создаём обьект обозначающий телеграм-бота
 DHT dht(DHTPIN, DHTTYPE);
